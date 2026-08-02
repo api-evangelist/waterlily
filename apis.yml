@@ -1,8 +1,17 @@
 aid: waterlily
 name: Waterlily
-description: 'Waterlily is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Waterlily is an AI-native, end-to-end long-term care (LTC) planning
+  platform for financial advisors, insurance professionals, and the families they
+  serve. Trained on more than 500 million data points, its models predict an
+  individual''s personalized likelihood of needing long-term care, project the cost
+  and duration of that care, and estimate the caregiving hours each family member is
+  likely to contribute. A roughly three-minute intake produces a personalized care
+  timeline and plan with localized cost estimates, and its Quote-and-Apply engine
+  computes mathematically optimal LTC insurance policy configurations across hundreds
+  of thousands of options. Founded by Lily Vittayarukskul and backed by Insight
+  Partners. Waterlily is surfaced in the API Evangelist network as a portfolio-lead
+  company; it exposes no public developer API today (integrations are one-click CRM
+  imports for Salesforce, Wealthbox, and Redtail).'
 url: https://raw.githubusercontent.com/api-evangelist/waterlily/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://framerusercontent.com/images/laKmEjGG8kwA51UmOy9tNi60g.png
 tags:
 - Company
 - Healthcare
+- Long-Term Care
+- Insurance
+- Financial Planning
+- Artificial Intelligence
+- Insurtech
+- Caregiving
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/waterlily-domain-security.yml
 - type: Website
   url: https://www.waterlily.com/
+- type: Blog
+  url: https://www.waterlily.com/blog
+- type: Pricing
+  url: https://www.waterlily.com/for-advisors#pricing
+- type: SignUp
+  url: https://www.waterlily.com/start-for-free
+- type: Login
+  url: https://app.waterlily.com
+- type: TermsOfService
+  url: https://www.waterlily.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.waterlily.com/privacy-policy
+- type: Support
+  url: mailto:hello@joinwaterlily.com
+- type: TrustCenter
+  url: https://trust.waterlily.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
