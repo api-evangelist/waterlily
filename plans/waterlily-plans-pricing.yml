@@ -44,3 +44,36 @@ plans:
   overage: '*Contact us to manage over 100 client plans'
 rate_limit_statements:
 - Manage up to 100 client LTC plans at once*
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  - seat
+  units:
+  - seat
+  plans:
+  - name: Free (2 week free trial)
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: Annual
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Monthly
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
