@@ -1,0 +1,46 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.waterlily.com/for-advisors#pricing
+sources:
+- https://www.waterlily.com/for-advisors#pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Advisor-facing LTC planning SaaS; per-seat monthly/annual pricing with free 14-day trial. Annual
+  saves 20%.
+plan_count: 3
+currency: USD
+plans:
+- name: Free (2 week free trial)
+  price_text: Free
+  period: none
+  unit: 14 days
+  included_quota: Manage up to 100 client LTC plans at once*, Live customer support
+  overage: '*Contact us to manage over 100 client plans'
+- name: Annual
+  price_text: $47 /mo
+  price: 47
+  currency: USD
+  period: month
+  unit: per-seat per month
+  included_quota: Manage up to 100 client LTC plans at once*, Live customer support
+  overage: '*Contact us to manage over 100 client plans'
+- name: Monthly
+  price_text: $59 /mo
+  price: 59
+  currency: USD
+  period: month
+  unit: per-seat per month
+  included_quota: Manage up to 100 client LTC plans at once*, Live customer support
+  overage: '*Contact us to manage over 100 client plans'
+rate_limit_statements:
+- Manage up to 100 client LTC plans at once*
